@@ -1,7 +1,30 @@
 aid: tigermed
-name: tigermed
-description: tigermed is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tigermed.png
+name: Tigermed
+description: >-
+  Tigermed (Hangzhou Tigermed Consulting Co., Ltd.) is a leading global contract
+  research organization (CRO) providing integrated drug and medical device
+  development services across the full clinical lifecycle. Its capabilities span
+  preclinical development (medicinal chemistry, compound screening, toxicology,
+  and bioanalytical services), clinical development (medical writing, clinical
+  monitoring, regulatory affairs, and data management), and integrated services
+  including central laboratories, pharmacovigilance, medical imaging, quality
+  assurance, and real-world and post-marketing studies. The company reports
+  11,000+ global employees, 180+ offices and locations, and 4,000+ customers,
+  supporting the development of 170+ innovative drugs. Tigermed was surfaced as a
+  portfolio company of Qiming Venture Partners and added to the API Evangelist
+  network; it publishes no public developer, API, or technical platform surface.
 url: https://raw.githubusercontent.com/api-evangelist/tigermed/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,17 +32,38 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- Contract Research Organization
+- Clinical Research
+- Pharmaceuticals
+- Healthcare
+- Life Sciences
+- Drug Development
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
+- type: DomainSecurity
+  url: security/tigermed-domain-security.yml
 - type: Website
-  url: https://tigermed.net
+  url: https://www.tigermedgrp.com
+- type: Support
+  url: https://www.tigermedgrp.com/en/contact/client-service-center
+- type: Blog
+  url: https://www.tigermedgrp.com/en/media-resources/tigermed-insights
+- type: PrivacyPolicy
+  url: https://www.tigermedgrp.com/en/privacy-policy
+- type: TermsOfService
+  url: https://www.tigermedgrp.com/en/terms-of-use
